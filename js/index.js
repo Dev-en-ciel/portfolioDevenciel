@@ -18,3 +18,4 @@ scrollBtn.addEventListener("click", () => {
   // On remonte en haut de la page avec un effet de défilement fluide
   window.scrollTo({ top: 0, behavior: "smooth" });
 });
+  
