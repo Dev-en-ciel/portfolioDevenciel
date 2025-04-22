@@ -143,15 +143,17 @@ nav ul {
     color: #3af5f2;
     transform: translate(-10px, -5px) scale(1.05);
     transition: all 0.3s ease;
-    text-shadow: 2px 3px 4px rgba(255, 255, 255, 0.8);
+    text-shadow: 2px 3px 4px rgba(0, 0, 0, 0.8);
 }
-
+ 
 .nav-list li:not(:hover) {
     transform: translateY(0); 
 }
 /* Styles pour les réseaux sociaux */
 .social-links {
     display: flex;
+    align-items: start;
+    width: 40%;
     gap: 15px;
     margin-top: 5px; 
   }
