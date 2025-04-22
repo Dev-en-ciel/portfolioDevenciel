@@ -1,0 +1,37 @@
+/* Responsive */
+@media (max-width: 768px) {
+    .presentation-content {
+      flex-direction: column;
+      gap: 40px;
+    }
+    
+    .circle-photo {
+      width: 250px;
+      height: 250px;
+    }
+    
+    .about-content {
+      text-align: center;
+    }
+    
+    .about-title::after {
+      left: 50%;
+      transform: translateX(-50%);
+      width: 80%;
+    }
+    
+    .about-text p {
+      text-align: center;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .social-links {
+      gap: 15px;
+    }
+    
+    .social-icon {
+      width: 28px;
+      height: 28px;
+    }
+  }
